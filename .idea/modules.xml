@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JPMC_-_Android_Coding_Challenge_NYC_SChools.iml" filepath="$PROJECT_DIR$/.idea/modules/JPMC_-_Android_Coding_Challenge_NYC_SChools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JPMC_-_Android_Coding_Challenge_NYC_SChools.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JPMC_-_Android_Coding_Challenge_NYC_SChools.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JPMC_-_Android_Coding_Challenge_NYC_SChools.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JPMC_-_Android_Coding_Challenge_NYC_SChools.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JPMC_-_Android_Coding_Challenge_NYC_SChools.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JPMC_-_Android_Coding_Challenge_NYC_SChools.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JPMC_-_Android_Coding_Challenge_NYC_SChools.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JPMC_-_Android_Coding_Challenge_NYC_SChools.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
