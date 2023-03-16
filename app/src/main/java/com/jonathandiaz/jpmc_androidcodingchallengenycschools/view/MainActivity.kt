@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.add
 import androidx.fragment.app.commit
-import com.example.jpmc_androidcodingchallengenycschools.R
+import com.jonathandiaz.jpmc_androidcodingchallengenycschools.R
 
 /*
  *      MainActivity
