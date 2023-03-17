@@ -1,92 +1,44 @@
-# 19970202 JonathanDiaz NYCSchools
+JPMC - Android Coding Challenge: NYC Schools 
 
+REQUIREMENTS:
 
+The app requirements are rather high-level and vague. If details are omitted, it is because we will be happy with any of a wide variety of functional solutions. Feel free to be creative and impress with code and UX (see more details down). You are allowed to use all the online resources you can find and use any 3rd party library if desired. Remember to make it useful for an actual user/student.
 
-## Getting started
+Create a native app (no react-native and no flutter) to provide information on NYC High schools.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+1. Display a list of NYC High Schools.
+    1. Get your data here: https://data.cityofnewyork.us/Education/DOE-High-School-Directory-2017/s3k6-pzi2
+    2. 
+2. Selecting a school should show additional information about the school 1. Display all the SAT scores - include Math, Reading and Writing.
+    1. SAT data here: https://data.cityofnewyork.us/Education/SAT-Results/f9bf-2cp4 
+    2. 2. It is up to you to decide what additional information to display.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+In order to prevent you from running down rabbit holes that are less important to us, try to prioritize the following:
 
-## Add your files
+What is Important
+    • Meet the basic App requirements.
+    • The App should work like it would do in production – error handling, edge conditions, stability
+and speed is important.
+    • Well-constructed, easy-to-follow, commented code (especially comment hacks or
+workarounds made in the interest of expediency (i.e. // given more time I would prefer to
+wrap this in a blah blah blah pattern blah blah )).
+    • Proper architecture with of separation of concerns and best-practice coding patterns.
+    • Modern asynchronous programming techniques.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+What is Less Important
+    • Demonstrating technologies or techniques you are not already familiar with.
+    • Only add code which you want us to read and judge you.
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/nyc-highschools/19970202-jonathandiaz-nycschools.git
-git branch -M main
-git push -uf origin main
-```
+Bonus Points!
+    • Good UX and UI
+    • Use of MVVM Architecture
+    • Samples of Unit testing. One of each kind rather than 100% code coverage.
+    • Kotlin and related tools are preferred but not mandatory.
+    • Use of Dependency injection.
 
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.com/nyc-highschools/19970202-jonathandiaz-nycschools/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+How to Submit:
+    • Submit your code via Gitlab.com. Feel free to use your current account or create a free account.
+    • When creating a name for your project, please use the following naming convention:
+          o YYYYMMDD-[First&LastName]-NYCSchools (Example: 20180101-DanielleBordner-NYCSchools)
+    • Make the project public and send the link back to the person that sent you the test.
+    • Please do contact us with questions or for interim feedback if you desire
